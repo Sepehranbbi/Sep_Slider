@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.Sep_SliderContainer{
+    width: 100%;
+    transition:  2s ease;
+
+    overflow: hidden;
+}
+.Sep_SliderContainer .Sep_SliderItems{
+    width: 100%;
+    float: left;
+    display: block;
+    overflow: hidden;
+    height: 250px;
+}
+.Sep_SliderContainer .item{
+    background-color: gray;
+    line-height: 250px;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    float: left;
+}
+
+/*  */
+.Sep_Container ul {
+    display: block;
+    padding: 0;
+    text-align: center;
+}
+.Sep_Container li{
+    display: inline-block;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1.5px solid teal;
+    line-height: 25px;
+    margin: 5px;
+}
+.Sep_Container li.active{
+    color: #fff;
+    background-color: teal;
+}
